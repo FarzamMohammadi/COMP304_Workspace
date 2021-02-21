@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LeaseOrRentHome Inc.</string>
+    <string name="enterButtonGuide">Please Press Enter to Continue</string>
+    <string name="enterButton">ENTER</string>
+    <string name="homeOptionsGuide">Please, Pick Your Desired Home Type:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="apartmentsLocations">
+        <item>26 Kingston Rd, Toronto, ON</item>
+        <item>18000 Dundas Sq, Toronto, ON</item>
+        <item>185 Blessing Cresm Toronto, ON</item>
+    </string-array>
+    <string-array name="apartmentPrices">
+        <item>1200</item>
+        <item>2800</item>
+        <item>1550</item>
+    </string-array>
+</resources>
