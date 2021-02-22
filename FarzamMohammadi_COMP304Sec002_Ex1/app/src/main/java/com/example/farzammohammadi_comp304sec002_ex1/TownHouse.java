@@ -20,22 +20,22 @@ public class TownHouse extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apartment_home);
 
-        recyclerView = findViewById(R.id.recyclerView);
-
+        //Retrieve location and price arrays
         location = getResources().getStringArray(R.array.apartmentsLocations);
         price  = getResources().getStringArray(R.array.apartmentPrices);
 
+        //Instanciate Recycler
+        recyclerView = findViewById(R.id.recyclerView);
         MyAdapter myAdapter = new MyAdapter(this, location, price, images);
-
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
-
+    //Menu
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.home_options_menu, menu);
         return true;
     }
-
+    //Menu Options
     public boolean onOptionsItemSelected(MenuItem item) {
         Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {

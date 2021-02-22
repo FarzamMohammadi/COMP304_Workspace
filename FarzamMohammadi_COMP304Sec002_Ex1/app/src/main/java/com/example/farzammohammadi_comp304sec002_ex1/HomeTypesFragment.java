@@ -21,6 +21,7 @@ import android.widget.Toast;
  */
 public class HomeTypesFragment extends Fragment {
 
+
     private ListView homeListView;
     private ArrayAdapter aAdapter;
     private String[] homeTypes = {"Apartment", "Detached Home", "Semi-Detached Home", "Condominium", "Town House"};
@@ -70,13 +71,13 @@ public class HomeTypesFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home_types, container, false);
+        //ListView
         homeListView = (ListView) view.findViewById(R.id.homeTypesListView);
         aAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_list_item_1, homeTypes);
         homeListView.setAdapter(aAdapter);
-
         homeListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-            @Override
+            @Override//Menu
             public void onItemClick(AdapterView<?> arg0, View arg1,
                                     int position, long arg3) {
                 // TODO Auto-generated method stub

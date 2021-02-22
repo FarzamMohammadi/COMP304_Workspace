@@ -16,9 +16,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Call Next Activity
         setContentView(R.layout.activity_main);
         enterButton = (Button) findViewById(R.id.enterButton);
     }
+    //Add Menu
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.home_options_menu, menu);
         return true;
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void enterButtonClick(View view){
         Intent intent = new Intent(MainActivity.this, SecondActivity.class);
         startActivity(intent);
-    }
+    }//Menu Options
     public boolean onOptionsItemSelected(MenuItem item) {
         Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {

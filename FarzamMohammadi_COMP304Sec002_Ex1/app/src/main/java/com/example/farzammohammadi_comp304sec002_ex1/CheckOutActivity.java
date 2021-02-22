@@ -16,22 +16,18 @@ public class CheckOutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_apartment_home);
 
+        //Retrieve Decided Prcies and locations
         SharedPreferences myPref = getSharedPreferences("listOfHomes", MODE_PRIVATE);
         String locationStrings = myPref.getString("HomeLocations","");
         String priceStrings = myPref.getString("HomePrices","");
-
         location = locationStrings.split("-");
         price = priceStrings.split("-");
 
-
-        setContentView(R.layout.activity_apartment_home);
-
+        //Instanciate Recycler
         recyclerView = findViewById(R.id.recyclerView);
-
-
         MyAdapter2 myAdapter = new MyAdapter2(this, location, price);
-
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

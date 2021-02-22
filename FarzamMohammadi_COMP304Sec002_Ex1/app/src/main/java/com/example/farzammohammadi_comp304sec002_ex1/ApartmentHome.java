@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class ApartmentHome extends AppCompatActivity {
 
     RecyclerView recyclerView;
-
     String location[], price[];
     int images[] = {R.drawable.ap1, R.drawable.ap2, R.drawable.ap3};
     @Override
@@ -21,13 +20,12 @@ public class ApartmentHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_apartment_home);
 
-        recyclerView = findViewById(R.id.recyclerView);
-
+        //Get string[] values
         location = getResources().getStringArray(R.array.apartmentsLocations);
         price  = getResources().getStringArray(R.array.apartmentPrices);
-
+        //Instanciate Recycler
+        recyclerView = findViewById(R.id.recyclerView);
         MyAdapter myAdapter = new MyAdapter(this, location, price, images);
-
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -37,6 +35,7 @@ public class ApartmentHome extends AppCompatActivity {
         return true;
     }
 
+    //Menu Options
     public boolean onOptionsItemSelected(MenuItem item) {
         Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {

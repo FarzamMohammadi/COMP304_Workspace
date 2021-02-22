@@ -22,6 +22,7 @@ import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
+    //Instanciate Global Variables
     SharedPreferences myPreference;
     StringBuilder locationsText = new StringBuilder ();
     StringBuilder PricesText = new StringBuilder ();
@@ -30,6 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     int images[];
     Context context;
 
+    //Adapter Constructor
     public MyAdapter(Context ct, String location[],String price[], int img[]){
         context = ct;
         data1 = location;
@@ -49,18 +51,19 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         SharedPreferences.Editor prefEditor = myPreference.edit();
-        int counter =0;
+        //Set UI variables based on position
         holder.myText1.setText(data1[position]);
         holder.myText2.setText(data2[position]);
         holder.myImage.setImageResource(images[position]);
+        //Calls Checkout Activity
         holder.button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view) {
                 prefEditor.commit();
-                    Log.e("I AM ", "Checkout Selected");
                 Intent intent = new Intent(context, CheckOutActivity.class);
                 context.startActivity(intent);
             }
         });
+        //Adds desired price and locations to Preference
         holder.checkBox.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,8 +73,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
                     PricesText.append(holder.myText2.getText().toString() + '-');
                     prefEditor.putString("HomePrices", PricesText.toString());
-
-
                 }
             }
         });

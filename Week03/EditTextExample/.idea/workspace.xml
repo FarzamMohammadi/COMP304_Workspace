@@ -6,17 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80919b0-a57f-499c-8fcd-1245b77a5b4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/java/com/example/farzammohammadi_comp304sec002_ex1/MyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/java/com/example/farzammohammadi_comp304sec002_ex1/MyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_condominium.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_detached_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_semi_detached.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/activity_town_house.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/my_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/layout/my_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b80919b0-a57f-499c-8fcd-1245b77a5b4c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,14 +30,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FarzamMohammadi_COMP304Sec002_Ex1" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="EditTextExample.app" />
@@ -102,9 +91,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -119,5 +106,11 @@
       <updated>1613957094232</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-877" y="257" key="FileChooserDialogImpl" timestamp="1613965080930">
+      <screen x="-1920" y="3" width="1920" height="1050" />
+    </state>
+    <state x="-877" y="257" key="FileChooserDialogImpl/0.0.1920.1050/1920.1.1920.1050/-1920.3.1920.1050@-1920.3.1920.1050" timestamp="1613965080930" />
   </component>
 </project>
