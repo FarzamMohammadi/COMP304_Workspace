@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FarzamMohammadi_COMP304Sec002_Ex1">
-        <activity android:name=".TownHouse"></activity>
+        <activity android:name=".LastScreenActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".CheckOutActivity" />
+        <activity android:name=".TownHouse" />
         <activity android:name=".Condominium" />
         <activity android:name=".SemiDetached" />
         <activity android:name=".DetachedHome" />
