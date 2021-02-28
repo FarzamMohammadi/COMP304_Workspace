@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorActivityBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="Exercise02.FarzamMohammadi_COMP304Sec002_Lab03_Ex02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startAnimBtn"
+            style="@style/startAndStopButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start_anim_txt" />
+
+        <Button
+            android:id="@+id/stopAnimBtn"
+            style="@style/startAndStopButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stop_anim_txt" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewForAnimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
