@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FarzamMohammadi_COMP304Sec002_Lab03</string>
+
+    <!--main activity-->
+    <string name="main_menu_instructions">PLEASE SELECT AN EXERCISE TO CONTINUE</string>
+    <string name="ex1">Exercise 1</string>
+    <string name="ex2">Exercise 2</string>
+    <string name="ex3">Exercise 3</string>
+    <string-array name="main_menu_exercise_list">
+        <item>@string/ex1</item>
+        <item>@string/ex2</item>
+        <item>@string/ex3</item>
+    </string-array>
+    <string name="main_menu_clicked_msg">"Clicked on "</string>
+
+    <!--Exercise01-->
+    <string name="cpa_label">Lab3 Ex1 M18 - Kevin Ma</string>
+    <string name="cpa_header1">Line Thickness</string>
+    <string name="cpa_header2">Line Color</string>
+    <string name="cpa_header3">Arrow Keys</string>
+    <string name="ex1_draw_left_msg">"You are at the left edge of the screen already! Cannot go further left!"</string>
+    <string name="ex1_draw_up_msg">"You are at the top edge of the screen already! Cannot go further up!"</string>
+    <string name="ex1_draw_right_msg">"You are at the right edge of the screen already! Cannot go further right!"</string>
+    <string name="ex1_draw_down_msg">"You are at the bottom edge of the screen already! Cannot go further down!"</string>
+    <string name="ex1_red_line_col_radio_btn">Red</string>
+    <string name="ex1_yellow_line_col_radio_btn">Yellow</string>
+    <string name="ex1_cyan_line_col_radio_btn">Cyan</string>
+    <string name="cpa_btn_txt">CLEAR DRAWING</string>
+
+    <string-array name="ex1_line_thickness_array">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>100</item>
+    </string-array>
+</resources>
