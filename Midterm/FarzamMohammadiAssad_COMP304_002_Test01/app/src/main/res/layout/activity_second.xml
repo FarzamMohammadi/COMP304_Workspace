@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/colorButtonNormal"
+    android:orientation="vertical"
+    android:paddingLeft="70dp"
+    android:paddingTop="20dp"
+    android:paddingRight="70dp"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/chartsToShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <ImageView
+        android:id="@+id/chartImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:minWidth="300px"
+        android:minHeight="300px"
+        android:rotation="180" />
+
+    <LinearLayout
+        android:id="@+id/lLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chartImageView">
+
+        <ImageView
+            android:id="@+id/lineColor1"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:minWidth="300px"
+            android:minHeight="80px"></ImageView>
+
+        <TextView
+            android:id="@+id/stockNameTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chartImageView">
+
+        <ImageView
+            android:id="@+id/lineColor2"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:minWidth="300px"
+            android:minHeight="80px"></ImageView>
+
+        <TextView
+            android:id="@+id/stockNameTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chartImageView">
+
+        <ImageView
+            android:id="@+id/lineColor3"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:minWidth="300px"
+            android:minHeight="80px"></ImageView>
+
+        <TextView
+            android:id="@+id/stockNameTxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chartImageView">
+
+        <ImageView
+            android:id="@+id/lineColor4"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:minWidth="300px"
+            android:minHeight="80px"></ImageView>
+
+        <TextView
+            android:id="@+id/stockNameTxt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chartImageView">
+
+        <ImageView
+            android:id="@+id/lineColor5"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:minWidth="300px"
+            android:minHeight="80px"></ImageView>
+
+        <TextView
+            android:id="@+id/stockNameTxt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
