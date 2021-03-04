@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="FarzamMohammadiAssad_COMP304Lab01_Ex02/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="FarzamMohammadiAssad_COMP304Lab01_Ex02/app/src/main/java"/>
+	<classpathentry kind="src" path="FarzamMohammadiAssad_COMP304Lab01_Ex02/app/src/test/java"/>
+	<classpathentry kind="lib" path="FarzamMohamamdiAssad_COMP304Lab01_Ex01/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="FarzamMohammadiAssad_COMP304Lab01_Ex02/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

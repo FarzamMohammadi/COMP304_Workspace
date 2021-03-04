@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Farzam Mohammadi - Test01</string>
+
+    <!-- Main Activity/Launcher-->
+    <!-- Stock Options -->
+    <string name="ibm">IBM</string>
+    <string name="google">GOOG</string>
+    <string name="apple">AAPL</string>
+    <string name="microsoft">MSFT</string>
+    <string name="oracle">ORCL</string>
+    <string name="mainActivityHead">Please choose every stock you want to graph:</string>
+
+    <!-- Activity 2-->
+    <!-- Stock Value Array-->
+    <string-array name="ibmStockValues">
+        <item>91</item>
+        <item>95</item>
+        <item>83</item>
+        <item>115</item>
+        <item>102</item>
+    </string-array>
+
+    <string-array name="microsoftStockValues">
+        <item>92</item>
+        <item>112</item>
+        <item>127</item>
+        <item>103</item>
+        <item>117</item>
+    </string-array>
+
+    <string-array name="googleStockValues">
+        <item>111</item>
+        <item>126</item>
+        <item>101</item>
+        <item>130</item>
+        <item>122</item>
+    </string-array>
+
+    <string-array name="appleStockValues">
+        <item>105</item>
+        <item>125</item>
+        <item>114</item>
+        <item>120</item>
+        <item>110</item>
+    </string-array>
+
+    <string-array name="oracleStockValues">
+        <item>100</item>
+        <item>107</item>
+        <item>118</item>
+        <item>121</item>
+        <item>99</item>
+    </string-array>
+
+    <string name="secondActivity_label">Stock Charts</string>
+
+
+</resources>
