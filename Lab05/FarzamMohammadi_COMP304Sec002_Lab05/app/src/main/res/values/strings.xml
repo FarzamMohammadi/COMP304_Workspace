@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FarzamMohammadi_COMP304Sec002_Lab03</string>
+    <string name="firstActivityWelcomeMSG">Welcome to our restaurant locator app!</string>
+    <string name="firstActivityWelcomeMSG2">Please Pick Your Desired Cuisine:</string>
+    <string name="italianLocationsTitle">Italian Cuisine</string>
+    <string name="pickYourRest">Please Click Pick Your Desired Location:</string>
+
+    <!--First Acitvity-->
+    <string-array name="cuisineNames">
+        <item>Italian</item>
+        <item>Greek</item>
+        <item>Persian</item>
+        <item>Chinese</item>
+        <item>Indian</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="cuisineDescriptions">
+        <item>A Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since antiquity.</item>
+        <item>It is founded on the triad of wheat, olive oil, and wine. It uses vegetables, olive oil, grains, fish, and meat, including pork, poultry, veal and beef, lamb, rabbit, and goat.</item>
+        <item>Typical are combinations of rice with meat, vegetables, and nuts. Herbs are frequently used, along with fruits such as plums, pomegranates, quince, prunes, apricots, and raisins.</item>
+        <item>Chinese dishes are rich in umami. The umami taste is common to many ingredients used in their cuisine like Chinese cabbage, spinach, celery, green tea or fermented products like soy sauce and pastes.</item>
+        <item>Spicy, rich, flavourful and diverse are terms that are frequently used to describe Indian food. Due to the differences in climate and soil conditions, the local cuisines in various regions may vary.</item>
+        <item>Vegetarian cuisine is based on food that meets vegetarian standards by not including meat and animal tissue products (such as gelatin or animal-derived rennet).</item>
+        <item>Vegan cuisine uses no animal products, such as meat, dairy, or eggs. This is more restrictive than vegetarian cuisine, which allows non-meat animal products. </item>
+    </string-array>
+
+<!--    ItalianCuisine Activity-->
+    <string-array name="locaionNames">
+        <item>Terroni</item>
+        <item>Ristorante Sotto Sotto Toronto</item>
+        <item>Enoteca Sociale</item>
+        <item>Fusaros Italian Kitchen</item>
+    </string-array>
+
+    <string-array name="locationDescritions">
+        <item>Casual-chic 2-level eatery for classic Southern Italian fare and thin-crust pizzas. \n\nLocation: 720 Queen St W, Toronto, ON M6J 1E8</item>
+        <item>Upscale trattoria serving traditional dishes from South-Central Italy. \n\nLocation: 120 Avenue Rd, Toronto, ON M5R 2H4</item>
+        <item>Funky spot offering Italian small plates, housemade pasta and wines, plus a cheese cave and a patio. \n\nLocation: 1288 Dundas St W, Toronto, ON M6J 1X7</item>
+        <item>Snug Italian eatery with a rustic vibe dishes up homestyle pasta, pizza and panini cafeteria-style. \n\nLocation: 147 Spadina Ave., Toronto, ON M5V 2L7</item>
+    </string-array>
+
+</resources>

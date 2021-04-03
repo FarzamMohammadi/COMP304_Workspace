@@ -242,12 +242,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         }
     }
-
-    public void startDrawing(View v)
-    {
-        canvas.drawPoint(15,15,paint);
-
-    }
+    
     public void drawLine (Canvas canvas)
     {
         canvas.drawLine(startx, starty, endx, endy, paint);
