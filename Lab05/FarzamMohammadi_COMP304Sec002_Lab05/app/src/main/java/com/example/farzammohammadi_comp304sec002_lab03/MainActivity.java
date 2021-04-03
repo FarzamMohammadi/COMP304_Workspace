@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         cuisineNames = getResources().getStringArray(R.array.cuisineNames);
         cuisineDescriptions = getResources().getStringArray(R.array.cuisineDescriptions);
 
-        ListView listView=(ListView)findViewById(R.id.italianLView);
+        ListView listView=(ListView)findViewById(R.id.mainLView);
 
         // For populating list data
         listviewAdapter customCuisineList = new listviewAdapter(this, cuisineNames, cuisineDescriptions, imageid);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Toast.makeText(getApplicationContext(),"You Selected "+cuisineNames[position]+ " Cuisine",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"You Selected "+cuisineNames[position]+ " cuisine",Toast.LENGTH_SHORT).show();
 
                 Intent intent;
                 switch(position) {
@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 1:
-                        intent = new Intent(MainActivity.this, ItalianCuisineActivity.class);
+                        intent = new Intent(MainActivity.this, GreekCuisineActivity.class);
                         startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(MainActivity.this, ItalianCuisineActivity.class);
+                        intent = new Intent(MainActivity.this, PersianCuisineActivity.class);
                         startActivity(intent);
                         break;
                     case 3:
@@ -64,26 +64,19 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 4:
-                        intent = new Intent(MainActivity.this, ItalianCuisineActivity.class);
+                        intent = new Intent(MainActivity.this, GreekCuisineActivity.class);
                         startActivity(intent);
                         break;
                     case 5:
-                        intent = new Intent(MainActivity.this, ItalianCuisineActivity.class);
+                        intent = new Intent(MainActivity.this, PersianCuisineActivity.class);
                         startActivity(intent);
                         break;
                     case 6:
-                        intent = new Intent(MainActivity.this, ItalianCuisineActivity.class);
+                        intent = new Intent(MainActivity.this, PersianCuisineActivity.class);
                         startActivity(intent);
                         break;
                 }
             }
         });
-
-    }
-
-    public static Intent viewOnMap(String address) {
-        return new Intent(Intent.ACTION_VIEW,
-                Uri.parse(String.format("geo:0,0?q=%s",
-                        URLEncoder.encode(address))));
     }
 }

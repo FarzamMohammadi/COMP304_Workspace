@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FarzamMohammadi_COMP304Sec002_Lab03">
-        <activity android:name=".ItalianCuisineActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+        android:name=".ItalianCuisineActivity"
+        android:parentActivityName=".MainActivity">
+    </activity>
+        <activity
+            android:name=".GreekCuisineActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".PersianCuisineActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
     </application>
 
 </manifest>

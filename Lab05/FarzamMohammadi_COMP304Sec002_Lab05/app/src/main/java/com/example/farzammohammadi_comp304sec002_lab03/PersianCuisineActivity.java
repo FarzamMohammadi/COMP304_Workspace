@@ -1,7 +1,5 @@
 package com.example.farzammohammadi_comp304sec002_lab03;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,24 +8,26 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class ItalianCuisineActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class PersianCuisineActivity extends AppCompatActivity {
 
     String[] locationNames;
     String[] locationDescriptions;
     private Integer imageid[] = {
-            R.drawable.italian1,
-            R.drawable.italian2,
-            R.drawable.italian3,
-            R.drawable.italian4,
+            R.drawable.persian1,
+            R.drawable.persian2,
+            R.drawable.persian3,
+            R.drawable.persian4,
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_italian_cuisine);
+        setContentView(R.layout.activity_persian_cuisine);
 
-        String str_location[] = new String[]{"720 Queen St W, Toronto, ON M6J 1E8" ,"120 Avenue Rd, Toronto, ON M5R 2H4", "1288 Dundas St W, Toronto, ON M6J 1X7" ,"147 Spadina Ave., Toronto, ON M5V 2L7"};
-        locationNames = getResources().getStringArray(R.array.locaionNames);
-        locationDescriptions = getResources().getStringArray(R.array.locationDescritions);
+        String str_location[] = new String[]{"2015 Avenue Rd, North York, ON M5M 4A5", "420 College St, Toronto, ON M5T 1T3","995 Bay St, Toronto, ON M5S 3C4", "777 Queen St W, Toronto, ON M6J 1G1"};
+        locationNames = getResources().getStringArray(R.array.locaionNamesPersian);
+        locationDescriptions = getResources().getStringArray(R.array.locationDescritionsPersian);
 
         ListView listView=(ListView)findViewById(R.id.mainLView);
 

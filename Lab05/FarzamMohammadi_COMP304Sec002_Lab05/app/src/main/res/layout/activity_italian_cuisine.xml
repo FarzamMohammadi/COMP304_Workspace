@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ItalianCuisineActivity">
     <ListView
-        android:id="@+id/italianLView"
+        android:id="@+id/mainLView"
         android:layout_width="388dp"
         android:layout_height="430dp"
         android:layout_marginBottom="7dp"

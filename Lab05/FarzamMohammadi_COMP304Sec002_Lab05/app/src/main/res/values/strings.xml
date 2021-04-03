@@ -2,8 +2,10 @@
     <string name="app_name">FarzamMohammadi_COMP304Sec002_Lab03</string>
     <string name="firstActivityWelcomeMSG">Welcome to our restaurant locator app!</string>
     <string name="firstActivityWelcomeMSG2">Please Pick Your Desired Cuisine:</string>
-    <string name="italianLocationsTitle">Italian Cuisine</string>
+    <string name="italianLocationsTitle">Italian Restaurants</string>
     <string name="pickYourRest">Please Click Pick Your Desired Location:</string>
+    <string name="persianCuisine">Persian Restaurants</string>
+    <string name="greekCuisine">Greek Restaurants</string>
 
     <!--First Acitvity-->
     <string-array name="cuisineNames">
@@ -29,9 +31,9 @@
 <!--    ItalianCuisine Activity-->
     <string-array name="locaionNames">
         <item>Terroni</item>
-        <item>Ristorante Sotto Sotto Toronto</item>
+        <item>Ristorante Sotto</item>
         <item>Enoteca Sociale</item>
-        <item>Fusaros Italian Kitchen</item>
+        <item>Fusaros Kitchen</item>
     </string-array>
 
     <string-array name="locationDescritions">
@@ -40,5 +42,37 @@
         <item>Funky spot offering Italian small plates, housemade pasta and wines, plus a cheese cave and a patio. \n\nLocation: 1288 Dundas St W, Toronto, ON M6J 1X7</item>
         <item>Snug Italian eatery with a rustic vibe dishes up homestyle pasta, pizza and panini cafeteria-style. \n\nLocation: 147 Spadina Ave., Toronto, ON M5V 2L7</item>
     </string-array>
+
+    <!--    GreekCuisine Activity-->
+    <string-array name="locaionNamesGreek">
+        <item>Mezes</item>
+        <item>Greece Restaurant</item>
+        <item>Mamakas Taverna</item>
+        <item>Krystos Modern</item>
+    </string-array>
+
+    <string-array name="locationDescritionsGreek">
+        <item>Busy Greek spot with a lively vibe and a 2-level dining room, plus share plates and a heated patio. \n\nLocation: 456 Danforth Ave, Toronto, ON M4K 1P3</item>
+        <item>Long-running cozy restaurant with blue-and-white decor that serves traditional Greek fare. \n\nLocation: 643 Mt Pleasant Rd, Toronto, ON M4S 2M9</item>
+        <item>Funky spot offering Italian small plates, housemade pasta and wines, plus a cheese cave and a patio. \n\nLocation: 80 Ossington Ave, Toronto, ON M6J 2Y7</item>
+        <item>Classic fare such as souvlaki and grilled lamb plus Greek beer and wines served in a contemporary space. \n\nLocation: 3200 Dufferin Street#22, Toronto, ON M6A 3B2</item>
+    </string-array>
+
+    <!--    GreekCuisine Activity-->
+    <string-array name="locaionNamesPersian">
+        <item>Darbar Grill</item>
+        <item>Pomegranate Restaurant</item>
+        <item>Tabriz Cookhouse</item>
+        <item>Banu</item>
+    </string-array>
+
+    <string-array name="locationDescritionsPersian">
+        <item>This wood-floored restaurant serves a menu of Persian specialties in an elegant dining room. \n\nLocation: 2015 Avenue Rd, North York, ON M5M 4A5</item>
+        <item>Persian art decorates this go-to for Iranian fare that specializes in richly spiced stews. \n\nLocation: 420 College St, Toronto, ON M5T 1T3</item>
+        <item>Traditional Persian stews, grilled meats and salads served in a modern, gleaming setting. \n\nLocation: 995 Bay St, Toronto, ON M5S 3C4</item>
+        <item>Drinks and traditional Iranian dishes in a sleek, Persian-inspired space with moody lighting. \n\nLocation: 777 Queen St W, Toronto, ON M6J 1G1</item>
+    </string-array>
+
+
 
 </resources>
