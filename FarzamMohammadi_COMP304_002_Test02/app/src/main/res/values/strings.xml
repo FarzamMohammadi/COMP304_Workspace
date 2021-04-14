@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FarzamMohammadi_COMP304_002_Test02</string>
+    <string name="pageTitle">Stocks Information</string>
+    <string name="insertStockBtn">INSERT STOCKS(HARDCODE)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ssnlf">SSNLF</string>
+    <string name="amzn">AMZN</string>
+    <string name="googl">GOOGL</string>
+    <string name="displayStockInfo">DISPLAY STOCK INFO</string>
+</resources>
